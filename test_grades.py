@@ -14,3 +14,13 @@ def test_below_sixty_fails():
 def test_score_above_100_is_rejected():
     with pytest.raises(ValueError):
         letter_grade(101)
+
+def test_seventy_is_a_c():
+    assert letter_grade(70) == "C"
+
+def test_sixty_is_a_d():
+    assert letter_grade(60) == "D"
+
+def test_negative_score_is_rejected():
+    with pytest.raises(ValueError):
+        letter_grade(-1)
