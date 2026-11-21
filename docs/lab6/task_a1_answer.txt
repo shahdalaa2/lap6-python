@@ -1,0 +1,1 @@
+100% statement coverage on grades.py verifies every branch and boundary condition (including A, B, C, D, and invalid scores) is exercised by tests.

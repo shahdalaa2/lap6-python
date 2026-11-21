@@ -1,0 +1,5 @@
+9b1ea71 Lab 6: complete A1, B1 behave drop scenario, C1/C2 smells and SiblingPolicy, and Part D Gherkin scenarios
+d502dad Lab 6: add .gitignore for virtual env and cache
+bea583c Lab 6: refactor fee calculation into invoice module and pass test_fees
+268e713 Lab 6: add boundary and error tests for letter_grade
+da2c8e5 Lab 6: add initial Python files
